@@ -1,0 +1,19 @@
+:root{
+  --brand-primary:#118DC1;
+  --brand-primary-rgb:17,141,193;
+}
+
+html, body { scroll-behavior: smooth; }
+body{ padding-top:3.5rem; } /* tighten to avoid large gap */
+
+/* Hero uses brand color gradient */
+.hero{
+  min-height:52vh;
+  background-image: linear-gradient(rgba(var(--brand-primary-rgb),.85), rgba(var(--brand-primary-rgb),.85));
+  background-color: var(--brand-primary);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Utility */
+.bg-body-tertiary{ background-color:#f6f7f9 !important; }

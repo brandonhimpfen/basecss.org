@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>base.css — Standardize Your HTML Styles</title>
+  <meta name="description" content="base.css is a minimal CSS collection to standardize HTML/HTML5 tags and attributes.">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+  <!-- Black (dark) navbar distinct from hero color -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">base.css</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#install">Install</a></li>
+          <li class="nav-item"><a class="nav-link" href="#changelog">Changelog</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-outline-light btn-sm" href="https://github.com/brandonhimpfen/base.css" target="_blank" rel="noopener">View on GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero d-flex align-items-center text-white text-center">
+    <div class="container py-5">
+      <h1 class="display-4 fw-bold">base.css</h1>
+      <p class="lead mx-auto" style="max-width: 820px;">
+        base.css is a collection of CSS for HTML / HTML5 tags and attributes, designed to be a starting point for any web project.
+      </p>
+      <div class="d-flex gap-3 justify-content-center flex-wrap mt-3">
+        <a class="btn btn-light btn-lg" href="https://github.com/brandonhimpfen/base.css" target="_blank" rel="noopener">View on GitHub</a>
+        <a class="btn btn-outline-light btn-lg" href="#install">Install Now</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Features</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">Only 5KB unminified / 4KB minified</li>
+            <li class="list-group-item">Includes typical HTML / HTML5 tags & attributes</li>
+            <li class="list-group-item">HTML5 ready</li>
+            <li class="list-group-item">Fixes common browser inconsistencies</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="install" class="py-5 bg-body-tertiary">
+    <div class="container">
+      <h2 class="mb-3">Install base.css</h2>
+      <p>Install via Git or Bower:</p>
+      <div class="bg-dark text-white rounded p-3 mb-3"><pre class="mb-0"><code>git clone https://github.com/brandonhimpfen/base.css</code></pre></div>
+      <div class="bg-dark text-white rounded p-3"><pre class="mb-0"><code>bower install base-css</code></pre></div>
+    </div>
+  </section>
+
+  <section id="changelog" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Changelog</h2>
+      <div class="table-responsive">
+        <table class="table table-striped align-middle">
+          <thead><tr><th>Version</th><th>Date</th><th>Comments</th></tr></thead>
+          <tbody>
+            <tr><td>1.0.1</td><td>31 October 2014</td><td>Update variables using SASS/Compass.</td></tr>
+            <tr><td>1.0.0</td><td>05 August 2013</td><td>Initial commit of files.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container small">
+      <p class="mb-1">© 2025 base.css. All rights reserved.</p>
+      <p class="mb-0">Made with ♥ in Canada.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/modernizr@3.13.0/modernizr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
