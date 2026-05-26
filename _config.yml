@@ -1,0 +1,28 @@
+title: base.css
+description: Standardize your HTML styles with a minimal CSS collection for HTML and HTML5 tags and attributes.
+url: "https://basecss.org"
+baseurl: ""
+lang: en
+permalink: /:title/
+timezone: America/Toronto
+
+brand:
+  name: base.css
+  github_url: https://github.com/brandonhimpfen/base.css
+  copyright_year: 2025
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+feed:
+  path: feed.xml
+
+exclude:
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - README.md

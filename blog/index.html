@@ -1,0 +1,21 @@
+---
+layout: page
+title: Blog
+heading: Blog
+description: Practical notes on CSS foundations, browser defaults, and maintainable front-end starting points.
+permalink: /blog/
+---
+<div class="row g-4">
+  {% for post in site.posts %}
+  <div class="col-md-6">
+    <article class="card h-100 shadow-sm border-0">
+      <div class="card-body">
+        <p class="small text-secondary mb-2">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <h2 class="h4"><a class="text-decoration-none text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.description }}</p>
+        <a href="{{ post.url | relative_url }}">Read more</a>
+      </div>
+    </article>
+  </div>
+  {% endfor %}
+</div>

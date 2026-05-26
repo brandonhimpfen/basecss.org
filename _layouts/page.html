@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<header class="hero d-flex align-items-center text-white text-center">
+  <div class="container py-5">
+    <h1 class="display-4 fw-bold">{{ page.heading | default: page.title }}</h1>
+    {% if page.description %}<p class="lead mx-auto" style="max-width: 820px;">{{ page.description }}</p>{% endif %}
+  </div>
+</header>
+<main class="py-5">
+  <div class="container">
+    {{ content }}
+  </div>
+</main>

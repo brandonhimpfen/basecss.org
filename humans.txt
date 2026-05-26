@@ -1,0 +1,8 @@
+/* TEAM */
+Developer: Brandon Himpfen
+
+/* TOOLS */
+Stack: HTML5, CSS, Bootstrap
+
+/* SITE */
+Last update: 2025-08-31
